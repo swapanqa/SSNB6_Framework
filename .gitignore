@@ -1,2 +1,7 @@
-/target/classes
-/target/test-classes/ssnb6/selenium/framework/*.class
+*.class
+
+/test-output/*.*
+Default suite
+junitreports
+old
+classes
