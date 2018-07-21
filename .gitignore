@@ -5,3 +5,4 @@ Default suite
 junitreports
 old
 classes
+/target/test-classes

@@ -25,7 +25,7 @@ import ssnb6.selenium.testng.data.HeatclinicLoginData;
 public class HeatclinicLoginFunctionality4 extends TestNgScriptBase1{
 	
 	
-	@Test(dataProviderClass=HeatclinicLoginData.class, dataProvider ="getTestData")
+	@Test(dataProviderClass=HeatclinicLoginData.class, dataProvider ="getTestDataExcelByPOI")
 	public void validUserAndPassword1(String run,String userid, String password, String username) {
 		if(run.toUpperCase().contentEquals("N")) {
 			throw new SkipException("This test is skiped");
